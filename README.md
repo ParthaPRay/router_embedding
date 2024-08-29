@@ -218,7 +218,7 @@ if __name__ == "__main__":
 ```
 
 
-Use rcan change the code as per the choice to syudy of euclidean distance **router_euclidean_default.py** and dot product **router_dot_default.py**.
+User can change the code as per the choice to syudy of euclidean distance **router_euclidean_default.py** and dot product **router_dot_default.py**.
 
 
 
