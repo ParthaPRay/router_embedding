@@ -1,5 +1,5 @@
-# router_embedding
-This repo contains a code that uses embedding model to enroute the prompt to appropriate route
+# Router by Embedding Models
+This repo contains a code that uses embedding model to enroute the prompt to appropriate route. 
 
 
 # Always run the code inside the virtual enviornment
@@ -216,7 +216,11 @@ if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=5000)
 ```
-    
+
+
+Use rcan change the code as per the choice to syudy of euclidean distance **router_euclidean_default.py** and dot product **router_dot_default.py**.
+
+
 
 # First start the FastAPI server at 5000 port
 
