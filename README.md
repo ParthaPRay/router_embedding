@@ -1,5 +1,5 @@
 # Router by Embedding Models
-This repo contains a code that uses embedding model to enroute the prompt to appropriate route. 
+This repo contains a code that uses embedding model to enroute the prompt to appropriate STATIC route. 
 
 
 # Always run the code inside the virtual enviornment
