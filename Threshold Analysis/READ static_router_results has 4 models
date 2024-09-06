@@ -1,0 +1,5 @@
+static_router_results.xlxs has only 4 embedding models 
+
+Threshold value calculation:
+
+We check if the largest 'no_match' value is smaller than or equal to the smallest 'partial_match' or 'exact_match' value. If so, it calculates the threshold as the midpoint. If not, it still calculates a midpoint but labels it as a "Suggested" threshold due to overlap.
