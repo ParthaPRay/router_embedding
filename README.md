@@ -1,5 +1,5 @@
 # Router by Embedding Models
-This repo contains a code that uses embedding model to enroute the prompt to appropriate STATIC route. 
+This repo contains a code that uses embedding model to enroute the prompt to appropriate STATIC route in proper fashion. 
 
 
 # Always run the code inside the virtual enviornment
@@ -48,4 +48,8 @@ Secodnly API call the server of same configuration
 $ python3 curl_caller_2.5.py
 ```
 
+
+# Threshold value calculation
+
+We check if the largest 'no_match' value is smaller than or equal to the smallest 'partial_match' or 'exact_match' value. If so, it calculates the threshold as the midpoint. If not, it still calculates a midpoint but labels it as a "Suggested" threshold due to overlap.
 
